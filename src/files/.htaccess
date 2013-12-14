@@ -1,0 +1,10 @@
+# enable expirations
+ExpiresActive On
+ExpiresDefault "access plus 1 week"
+ExpiresByType image/gif "access plus 1 week"
+ExpiresByType image/png "access plus 1 week"
+ExpiresByType image/jpeg "access plus 1 week"
+ExpiresByType image/pjpeg "access plus 1 week"
+ExpiresByType text/javascript "modification plus 1 week"
+ExpiresByType application/javascript "modification plus 1 week"
+ExpiresByType text/css "modification plus 1 week"

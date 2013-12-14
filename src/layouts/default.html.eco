@@ -14,7 +14,8 @@
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold" />
 <link rel="stylesheet" type="text/css" href="css/jquery.sbbe.min.css" />
 <link rel="stylesheet" type="text/css" href="css/styles.css" />
-<link rel="shortcut icon" href="favicon.ico" type="image/icon"> <link rel="icon" href="favicon.ico" type="image/icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/icon">
+<link rel="icon" href="favicon.ico" type="image/icon" />
 </head>
 <body id="home">
 
@@ -94,7 +95,7 @@
     <p><a class="mailto" href="#bookings|sbbemusic">Bookings</a> </p>
     <p><a class="mailto" href="#info|sbbemusic">General Info</a> </p>
     <h4>Link It, Like It, Tweet It</h4>
-    <p><a href="http://soundcloud.com/sbbemusic" title="SBBE on Soundcloud" target="_blank">Soundcloud</a></p>
+    <p><a href="http://soundcloud.com/sbbemusic" title="SBBE on SoundCloud" target="_blank">Soundcloud</a></p>
     <p><a href="http://facebook.com/sbbemusic" title="SBBE on Facebook" target="_blank">Facebook</a></p>
     <p><a href="http://twitter.com/sbbemusic" title="SBBE on Twitter" target="_blank">Twitter</a></p>
     <p><a href="http://youtube.com/sbbemusic" title="SBBE on YouTube" target="_blank">YouTube</a></p>
