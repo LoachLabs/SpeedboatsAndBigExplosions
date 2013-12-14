@@ -7,7 +7,6 @@ $( function() {
   });
 });
 
-/*
 $( function() {
   $.sbbe( 'slideshow', {
     delay: 7500,
@@ -71,4 +70,3 @@ $( function() {
     $( '#overlay, #download' ).show();
   });
 } );
-*/
