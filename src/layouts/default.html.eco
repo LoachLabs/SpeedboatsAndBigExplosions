@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7 ]> <html lang="en" class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <html lang="en" class="ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html lang="en" class="ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="ie ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Speedboats & Big Explosions</title>
+<meta name="description" content="Speedboats & Big Explosions">
+<meta name="keywords" content="Speedboats & Big Explosions, SBBE, House, Deep House, Funky House, Toronto House">
+<meta name="robots" content="index, follow" />
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold" />
+<link rel="stylesheet" type="text/css" href="css/jquery.sbbe.min.css" />
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link rel="shortcut icon" href="favicon.ico" type="image/icon"> <link rel="icon" href="favicon.ico" type="image/icon" />
+</head>
+<body id="home">
+
+<!-- Content -->
+<div id="container">
+  <%- @content %>
+</div>
+
+<!-- Top Transparent Banner  -->
+<div id="donate">
+  Latest SBBE Music:
+  <br />
+  <object height="18" style="width:100%" data="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/120463103&amp;color=ffffff&amp;auto_play=false&amp;font=Tahoma&amp;player_type=tiny" type="application/x-shockwave-flash">
+    <param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/120463103&amp;color=ffffff&amp;auto_play=false&amp;font=Tahoma&amp;player_type=tiny" />
+    <param name="allowscriptaccess" value="always" />
+    <param name="wmode" value="transparent" />
+    <embed wmode="transparent" allowscriptaccess="always" height="18" style="width:100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/120463103&amp;color=ffffff&amp;auto_play=false&amp;font=Tahoma&amp;player_type=tiny" />
+  </object>
+  <object height="18" style="width:100%" data="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/playlists/11888338&amp;color=ffffff&amp;auto_play=false&amp;font=Tahoma&amp;player_type=tiny" type="application/x-shockwave-flash">
+    <param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/playlists/11888338&amp;color=ffffff&amp;auto_play=false&amp;font=Tahoma&amp;player_type=tiny" />
+    <param name="allowscriptaccess" value="always" />
+    <param name="wmode" value="transparent" />
+    <embed wmode="transparent" allowscriptaccess="always" height="18" style="width:100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/playlists/11888338&amp;color=ffffff&amp;auto_play=false&amp;font=Tahoma&amp;player_type=tiny" />
+  </object>
+  <object height="18" style="width:100%" data="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/104380340&amp;color=ffffff&amp;auto_play=false&amp;font=Tahoma&amp;player_type=tiny" type="application/x-shockwave-flash">
+    <param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/104380340&amp;color=ffffff&amp;auto_play=false&amp;font=Tahoma&amp;player_type=tiny" />
+    <param name="allowscriptaccess" value="always" />
+    <param name="wmode" value="transparent" />
+    <embed wmode="transparent" allowscriptaccess="always" height="18" style="width:100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/104380340&amp;color=ffffff&amp;auto_play=false&amp;font=Tahoma&amp;player_type=tiny" />
+  </object>
+</div>
+
+<div id="scplayer"></div>
+
+<!-- Social Media Links (Bottom Left) -->
+<div id="sponsors">
+    <div id="social">
+      <a href="http://soundcloud.com/sbbemusic" title="SBBE on Soundcloud" target="_blank">
+        <img src="images/soundcloud.png" onmouseover="this.src='images/soundcloud_hover.png'" onmouseout="this.src='images/soundcloud.png'" title="SBBE on Soundcloud" alt="SBBE on Soundcloud" />
+      </a>
+      <a href="http://facebook.com/sbbemusic" title="SBBE on Facebook" target="_blank">
+        <img src="images/facebook.png" onmouseover="this.src='images/facebook_hover.png'" onmouseout="this.src='images/facebook.png'" title="SBBE on Facebook" alt="SBBE on Facebook" />
+      </a>
+      <a href="http://twitter.com/sbbemusic" title="SBBE on Twitter" target="_blank">
+        <img src="images/twitter.png" onmouseover="this.src='images/twitter_hover.png'" onmouseout="this.src='images/twitter.png'" alt="SBBE on Twitter" title="SBBE on Twitter" />
+      </a>
+      <a href="http://youtube.com/sbbemusic" title="SBBE on YouTube" target="_blank">
+        <img src="images/youtube.png" onmouseover="this.src='images/youtube_hover.png'" onmouseout="this.src='images/youtube.png'" title="SBBE on YouTube" alt="SBBE on YouTube" />
+      </a>
+      <a href="http://www.beatport.com/artist/speedboats-and-big-explosions/208963/tracks" title="SBBE on Beatport" target="_blank">
+        <img src="images/beatport.png" onmouseover="this.src='images/beatport_hover.png'" onmouseout="this.src='images/beatport.png'" alt="SBBE on Beatport" title="SBBE on Beatport" />
+      </a>
+      <a href="http://www.traxsource.com/artist/129650/speedboats-and-big-explosions" title="SBBE on Traxsource" target="_blank">
+        <img src="images/traxsource.png" onmouseover="this.src='images/traxsource_hover.png'" onmouseout="this.src='images/traxsource.png'" title="SBBE on Traxsource" alt="SBBE on Traxsource" />
+      </a>
+    </div>
+</div>
+<div id="overlay"></div>
+
+<!-- Contact Info Subpage-->
+<div id="credits">
+  <div class="first">
+    <h3>Who Are These Guys?</h3>
+    <p>Juan Sanchez and The Bullet team up to form “Speedboats and Big Explosions”. These retro cops bring together the deep, funk and the tech to create a house music sound that is as awesome as their glorious moustaches.
+      <br />
+      <br />
+      They've been part of releases on Sonny Fodera's 'Beatdown' Label, Carl Hanaghan's 'Discopols Recordings', Midnite Sleaze's 'Bamboo Music', Jalapeno Records, Supermarket Unlimited, Emotive Sounds and System Recordings.
+      <br />
+      <br />
+      Their delicious Martini of funk, tech and soul is shaken, not stirred, and is always setting the right mood for the party.
+    </p>
+  </div>
+  <div class="last">
+    <h3>Get Connected</h3>
+    <h4>Holla! (Our Emails 'n' Stuff)</h4>
+    <p><a class="mailto" href="#promo|sbbemusic">Promos</a> </p>
+    <p><a class="mailto" href="#bookings|sbbemusic">Bookings</a> </p>
+    <p><a class="mailto" href="#info|sbbemusic">General Info</a> </p>
+    <h4>Link It, Like It, Tweet It</h4>
+    <p><a href="http://soundcloud.com/sbbemusic" title="SBBE on Soundcloud" target="_blank">Soundcloud</a></p>
+    <p><a href="http://facebook.com/sbbemusic" title="SBBE on Facebook" target="_blank">Facebook</a></p>
+    <p><a href="http://twitter.com/sbbemusic" title="SBBE on Twitter" target="_blank">Twitter</a></p>
+    <p><a href="http://youtube.com/sbbemusic" title="SBBE on YouTube" target="_blank">YouTube</a></p>
+  </div>
+</div>
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="jquery.sbbe.min.js"></script>
+<script type="text/javascript" src="global.js"></script>
+<%- @getBlock('scripts').add(@site.scripts or {}).toHTML() %>
+</body>
+</html>

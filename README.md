@@ -1,4 +1,19 @@
-sbbemusic
-=========
+SBBE Music
+==========
 
-[WIP]
+The sexy website.
+
+
+Dependencies
+------------
+
+* [npm](https://npmjs.org)
+
+
+Build
+-----
+
+``` bash
+$ npm install
+$ npm start
+```
