@@ -16,3 +16,4 @@ out/
 # CUSTOM MODIFICATIONS
 
 .docpad.db
+src/files/vendor

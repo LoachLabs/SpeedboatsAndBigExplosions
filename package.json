@@ -13,15 +13,18 @@
   },
   "dependencies": {
     "docpad-plugin-eco": "~2.0.2",
+    "docpad-plugin-less": "~2.3.0",
     "docpad-plugin-ghpages": "~2.4.1",
     "docpad-plugin-cssmin": "~2.1.0"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.5.3",
-    "docpad": "~6.57.2"
+    "docpad": "~6.59.6",
+    "bower": "~1"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
-    "start": "node_modules/docpad/bin/docpad run"
+    "start": "node_modules/docpad/bin/docpad run",
+    "postinstall": "node_modules/bower/bin/bower install"
   }
 }

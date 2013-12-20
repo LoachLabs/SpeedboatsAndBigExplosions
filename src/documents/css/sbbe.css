@@ -24,7 +24,7 @@
     z-index: -2;
 }
 
-.sbbe-overlay,.sbbe-background {
+.sbbe-overlay, .sbbe-background {
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;

@@ -1,0 +1,26 @@
+templateData:
+  site:
+    title: "Speedboats & Big Explosions"
+    url: "http://speedboatsandbigexplosions.com"
+    description: """
+      Two Retro cops team up to become the super duo Speedboats & Big Explosions.
+      """
+
+    # The website keywords (for SEO) separated by commas
+    keywords: """
+      Toronto, Music, Deep House, Funk, Tech House
+      """
+
+    # The website's styles
+    styles: [
+      "http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold",
+      "css/sbbe.css"
+      "css/styles.css"
+    ]
+
+    # The website's scripts
+    scripts: [
+      'vendor/jquery/jquery.min.js'
+      'jquery.sbbe.min.js'
+      'global.js'
+    ]

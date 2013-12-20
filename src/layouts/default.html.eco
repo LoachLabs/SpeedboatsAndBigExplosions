@@ -11,9 +11,7 @@
 <meta name="keywords" content="Speedboats & Big Explosions, SBBE, House, Deep House, Funky House, Toronto House">
 <meta name="robots" content="index, follow" />
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold" />
-<link rel="stylesheet" type="text/css" href="css/sbbe.css" />
-<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<%- @getBlock('styles').add(@site.styles or []).toHTML() %>
 <link rel="shortcut icon" href="favicon.ico" type="image/icon">
 <link rel="icon" href="favicon.ico" type="image/icon" />
 </head>
@@ -54,22 +52,22 @@
 <div id="sponsors">
     <div id="social">
       <a href="http://soundcloud.com/sbbemusic" title="SBBE on Soundcloud" target="_blank">
-        <img src="images/soundcloud.png" onmouseover="this.src='images/soundcloud_hover.png'" onmouseout="this.src='images/soundcloud.png'" title="SBBE on Soundcloud" alt="SBBE on Soundcloud" />
+        <img src="images/soundcloud.png" onmouseover="this.src='images/soundcloud_hover.png'" onmouseout="this.src='images/soundcloud.png'" title="SBBE on Soundcloud" alt="SBBE on Soundcloud" width="32px" height="32px" />
       </a>
       <a href="http://facebook.com/sbbemusic" title="SBBE on Facebook" target="_blank">
-        <img src="images/facebook.png" onmouseover="this.src='images/facebook_hover.png'" onmouseout="this.src='images/facebook.png'" title="SBBE on Facebook" alt="SBBE on Facebook" />
+        <img src="images/facebook.png" onmouseover="this.src='images/facebook_hover.png'" onmouseout="this.src='images/facebook.png'" title="SBBE on Facebook" alt="SBBE on Facebook" width="32px" height="32px" />
       </a>
       <a href="http://twitter.com/sbbemusic" title="SBBE on Twitter" target="_blank">
-        <img src="images/twitter.png" onmouseover="this.src='images/twitter_hover.png'" onmouseout="this.src='images/twitter.png'" alt="SBBE on Twitter" title="SBBE on Twitter" />
+        <img src="images/twitter.png" onmouseover="this.src='images/twitter_hover.png'" onmouseout="this.src='images/twitter.png'" alt="SBBE on Twitter" title="SBBE on Twitter" width="32px" height="32px" />
       </a>
       <a href="http://youtube.com/sbbemusic" title="SBBE on YouTube" target="_blank">
-        <img src="images/youtube.png" onmouseover="this.src='images/youtube_hover.png'" onmouseout="this.src='images/youtube.png'" title="SBBE on YouTube" alt="SBBE on YouTube" />
+        <img src="images/youtube.png" onmouseover="this.src='images/youtube_hover.png'" onmouseout="this.src='images/youtube.png'" title="SBBE on YouTube" alt="SBBE on YouTube" width="32px" height="32px" />
       </a>
       <a href="http://www.beatport.com/artist/speedboats-and-big-explosions/208963/tracks" title="SBBE on Beatport" target="_blank">
-        <img src="images/beatport.png" onmouseover="this.src='images/beatport_hover.png'" onmouseout="this.src='images/beatport.png'" alt="SBBE on Beatport" title="SBBE on Beatport" />
+        <img src="images/beatport.png" onmouseover="this.src='images/beatport_hover.png'" onmouseout="this.src='images/beatport.png'" alt="SBBE on Beatport" title="SBBE on Beatport" width="32px" height="32px" />
       </a>
       <a href="http://www.traxsource.com/artist/129650/speedboats-and-big-explosions" title="SBBE on Traxsource" target="_blank">
-        <img src="images/traxsource.png" onmouseover="this.src='images/traxsource_hover.png'" onmouseout="this.src='images/traxsource.png'" title="SBBE on Traxsource" alt="SBBE on Traxsource" />
+        <img src="images/traxsource.png" onmouseover="this.src='images/traxsource_hover.png'" onmouseout="this.src='images/traxsource.png'" title="SBBE on Traxsource" alt="SBBE on Traxsource" width="32px" height="32px" />
       </a>
     </div>
 </div>
@@ -101,9 +99,6 @@
     <p><a href="http://youtube.com/sbbemusic" title="SBBE on YouTube" target="_blank">YouTube</a></p>
   </div>
 </div>
-<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="jquery.sbbe.min.js"></script>
-<script type="text/javascript" src="global.js"></script>
-<%- @getBlock('scripts').add(@site.scripts or {}).toHTML() %>
+<%- @getBlock('scripts').add(@site.scripts or []).toHTML() %>
 </body>
 </html>
