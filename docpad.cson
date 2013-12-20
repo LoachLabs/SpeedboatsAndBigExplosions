@@ -14,13 +14,11 @@ templateData:
     # The website's styles
     styles: [
       "http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold",
-      "css/sbbe.css"
-      "css/styles.css"
+      "main.css"
     ]
 
     # The website's scripts
     scripts: [
       'vendor/jquery/jquery.min.js'
-      'jquery.sbbe.min.js'
-      'global.js'
+      'main.js'
     ]

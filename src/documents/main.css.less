@@ -241,8 +241,7 @@ ul {
   text-align:right;
   img {
     -moz-box-shadow:0 5px 5px #000000;
-    -webkit-box-shadow:0 5px 5px #000000;
-    box-shadow:0 5px 2px #000000;
+    box-shadow:0 5px 5px #000000;
     float:left;
     background:#000000;
     border:1px solid #111111;
@@ -442,12 +441,53 @@ body #container #menu li span {
   text-transform: uppercase;
 }
 
+/**
+ * Slideshow
+ */
+.sbbe-loading {
+  border-radius:10px;
+  background:#000000;
+  background:rgba(0,0,0,0.7);
+  background:url(../images/loading.gif) no-repeat center center;
+  height:32px;
+  left:20px;
+  position:fixed;
+  top:20px;
+  width:32px;
+  z-index:0;
+}
+.sbbe-overlay {
+  background:transparent url(../overlays/01.png);
+  opacity:.5;
+  z-index:-1;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+.sbbe-background {
+  -ms-interpolation-mode:bicubic;
+  image-rendering:optimizeQuality;
+  max-width:none !important;
+  z-index:-2;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+/**
+ * Media Queries
+ */
 @media only screen and (max-width: 900px) {
   body #container {
     left: 0;
     width: 100%;
-    padding: 0 20px 50px 0;
+    padding: 100px 20px 50px 0;
     text-align: center;
+    position: initial;
   }
   body #container h1 {
     font-size: 4em;

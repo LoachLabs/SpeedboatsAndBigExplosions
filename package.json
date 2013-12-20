@@ -15,7 +15,8 @@
     "docpad-plugin-eco": "~2.0.2",
     "docpad-plugin-less": "~2.3.0",
     "docpad-plugin-ghpages": "~2.4.1",
-    "docpad-plugin-cssmin": "~2.1.0"
+    "docpad-plugin-cssmin": "~2.1.0",
+    "docpad-plugin-htmlmin": "~2.3.0"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.5.3",
