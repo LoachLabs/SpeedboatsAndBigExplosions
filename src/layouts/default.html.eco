@@ -24,8 +24,7 @@
 
 <!-- Top Transparent Banner  -->
 <div id="donate">
-  Latest SBBE Music:
-  <br />
+  <p>Latest SBBE Music:</p>
   <object height="18" style="width:100%" data="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/120463103&amp;color=ffffff&amp;auto_play=false&amp;font=Tahoma&amp;player_type=tiny" type="application/x-shockwave-flash">
     <param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/120463103&amp;color=ffffff&amp;auto_play=false&amp;font=Tahoma&amp;player_type=tiny" />
     <param name="allowscriptaccess" value="always" />
