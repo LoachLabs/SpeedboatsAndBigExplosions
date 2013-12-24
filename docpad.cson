@@ -22,3 +22,5 @@ templateData:
       'vendor/jquery/jquery.min.js'
       'main.js'
     ]
+
+    analytics: 'UA-347108-4'

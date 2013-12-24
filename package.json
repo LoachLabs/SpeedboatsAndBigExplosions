@@ -1,7 +1,8 @@
 {
+  "title": "Speedboats & Big Explosions",
   "name": "robloach-sbbemusic",
-  "version": "0.0.1",
-  "description": "Speedboats & Big Explosions",
+  "version": "1.0.0",
+  "description": "The website behind Speedboats & Big Explosions",
   "license": "MIT",
   "engines": {
     "node": "0.10",
@@ -12,11 +13,12 @@
     "url": "https://github.com/robloach/sbbemusic.git"
   },
   "dependencies": {
-    "docpad-plugin-eco": "~2.0.2",
+    "docpad-plugin-eco": "~2.0.3",
     "docpad-plugin-less": "~2.3.0",
     "docpad-plugin-ghpages": "~2.4.1",
-    "docpad-plugin-cssmin": "~2.1.0",
-    "docpad-plugin-htmlmin": "~2.3.0"
+    "docpad-plugin-cssmin": "~2.1.1",
+    "docpad-plugin-htmlmin": "~2.3.1",
+    "docpad-plugin-uglify": "~2.3.0"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.5.3",
