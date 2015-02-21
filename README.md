@@ -12,7 +12,19 @@ The sexy website at [sbbemusic.com](http://sbbemusic.com).
 
 ``` bash
 $ npm install
+$ npm test
+```
+
+## Develop
+
+``` bash
 $ npm start
+```
+
+## Deploy
+
+``` bash
+$ npm run deploy
 ```
 
 

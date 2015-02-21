@@ -24,3 +24,7 @@ templateData:
     ]
 
     analytics: 'UA-347108-4'
+
+plugins:
+    ghpages:
+        deployBranch: 'live'
