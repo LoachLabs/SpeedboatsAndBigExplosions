@@ -1,6 +1,7 @@
 {
-  "name": "robloach-sbbemusic",
+  "name": "SpeedboatsAndBigExplosions",
+  "private": true,
   "dependencies": {
-    "jquery": "1.9.1"
+    "jquery": "~2.1.3"
   }
 }

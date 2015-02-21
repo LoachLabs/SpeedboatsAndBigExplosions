@@ -1,7 +1,8 @@
 {
   "title": "Speedboats & Big Explosions",
-  "name": "robloach-sbbemusic",
-  "version": "1.0.0",
+  "name": "SpeedboatsAndBigExplosions",
+  "version": "1.1.0",
+  "private": true,
   "description": "The website behind Speedboats & Big Explosions",
   "license": "MIT",
   "engines": {
@@ -10,24 +11,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/robloach/sbbemusic.git"
+    "url": "https://github.com/LoachLabs/SpeedboatsAndBigExplosions.git"
   },
   "dependencies": {
-    "docpad-plugin-eco": "~2.0.3",
+    "docpad-plugin-eco": "~2.1.0",
     "docpad-plugin-less": "~2.3.0",
-    "docpad-plugin-ghpages": "~2.4.1",
-    "docpad-plugin-cssmin": "~2.1.1",
-    "docpad-plugin-htmlmin": "~2.3.1",
-    "docpad-plugin-uglify": "~2.3.0"
+    "docpad-plugin-ghpages": "~2.4.4",
+    "docpad-plugin-cleancss": "~2.0.2",
+    "docpad-plugin-htmlmin": "~2.4.3",
+    "docpad-plugin-uglify": "~2.4.0"
   },
   "devDependencies": {
-    "docpad-plugin-livereload": "~2.5.3",
-    "docpad": "~6.59.6",
+    "docpad-plugin-livereload": "~2.6.0",
+    "docpad": "~6.73.2",
     "bower": "~1"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
-    "start": "node_modules/docpad/bin/docpad run",
-    "postinstall": "node_modules/bower/bin/bower install"
+    "start": "docpad run",
+    "postinstall": "bower install",
+    "test": "docpad generate"
   }
 }

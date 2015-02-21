@@ -1,7 +1,7 @@
 LICENSE
 =======
 
-SBBE Music is released under the MIT License:
+Speedboats & Big Explosions is released under the MIT License:
 
 > Copyright (C) 2013 [Speedboats & Big Explosions](http://speedboatsandbigexplosions.com)
 >
