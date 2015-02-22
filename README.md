@@ -1,6 +1,19 @@
-# SBBE Music
 
-The sexy website at [sbbemusic.com](http://sbbemusic.com).
+<!-- TITLE/ -->
+
+# Speedboats and Big Explosions
+
+<!-- /TITLE -->
+
+
+<!-- BADGES/ -->
+
+[![Build Status](https://img.shields.io/travis/LoachLabs/SpeedboatsAndBigExplosions/master.svg)](http://travis-ci.org/LoachLabs/SpeedboatsAndBigExplosions "Check this project's build status on TravisCI")
+[![Dependency Status](https://img.shields.io/david/LoachLabs/SpeedboatsAndBigExplosions.svg)](https://david-dm.org/LoachLabs/SpeedboatsAndBigExplosions)<br/>
+
+<!-- /BADGES -->
+
+The website behind [SpeedboatsAndBigExplosions.com](http://SpeedboatsAndBigExplosions.com).
 
 
 ## Dependencies
