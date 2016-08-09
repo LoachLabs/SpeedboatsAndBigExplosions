@@ -1,7 +1,0 @@
-{
-  "name": "SpeedboatsAndBigExplosions",
-  "private": true,
-  "dependencies": {
-    "jquery": "~2.1.3"
-  }
-}

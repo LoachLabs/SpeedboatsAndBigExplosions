@@ -19,7 +19,6 @@ templateData:
 
     # The website's scripts
     scripts: [
-      'vendor/jquery/jquery.min.js'
       'main.js'
     ]
 

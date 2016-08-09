@@ -1,3 +1,10 @@
+---
+browserify: true
+---
+
+var $ = require('jquery/dist/jquery.min.js');
+var jQuery = $;
+
 $( function() {
   $( '#authors' ).hover( function(e) {
     $( '#hire' ).show();
